@@ -1,0 +1,34 @@
+{
+  "name": "banks-db-demo",
+  "version": "1.0.0",
+  "description": "Demo page for Banks DB",
+  "author": "Linda Rian <lindarian12@gmail.com>",
+  "repository": "Ramoona/banks-db-demo",
+  "keywords": [
+    "bankcard",
+    "bin",
+    "bank",
+    "card",
+    "color",
+    "logo",
+    "database",
+    "db"
+  ],
+  "devDependencies": {
+    "autoprefixer": "^6.3.1",
+    "banks-db": "^0.4.0",
+    "eslint": "^1.10.3",
+    "eslint-config-airbnb": "^4.0.0",
+    "gulp": "^3.9.0",
+    "gulp-postcss": "^6.0.1",
+    "browserify": "^13.0.0",
+    "postcss-nested": "^1.0.0",
+    "postcss-normalize": "^0.1.2",
+    "vinyl-source-stream": "^1.1.0",
+    "vanilla-masker": "^1.0.9"
+  },
+  "license": "CC-BY-4.0",
+  "scripts": {
+    "lint": "eslint ./src/index.js"
+  }
+}
