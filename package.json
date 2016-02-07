@@ -24,6 +24,8 @@
     "browserify": "^13.0.0",
     "postcss-nested": "^1.0.0",
     "postcss-normalize": "^0.1.2",
+    "postcss-banks-db": "^0.1.0",
+    "postcss-contrast": "^0.0.4",
     "vinyl-source-stream": "^1.1.0",
     "vanilla-masker": "^1.0.9"
   },

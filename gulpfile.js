@@ -3,6 +3,8 @@ var postcss = require('gulp-postcss');
 var autoprefixer = require('autoprefixer');
 var normalize = require('postcss-normalize');
 var nested = require('postcss-nested');
+var banksDB = require('postcss-banks-db');
+var contrast = require('postcss-contrast');
 var browserify = require('browserify');
 var source = require('vinyl-source-stream');
 
@@ -15,7 +17,9 @@ gulp.task('postcss', function () {
   var processors = [
     autoprefixer({ browsers: ['last 1 version'] }),
     normalize,
-    nested
+    nested,
+    banksDB,
+    contrast
   ];
   return gulp.src(paths.css)
     .pipe(postcss(processors))

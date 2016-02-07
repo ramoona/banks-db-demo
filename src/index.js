@@ -2,35 +2,35 @@ const banksDB = require('banks-db');
 const masker = require('vanilla-masker');
 
 window.onload = function () {
-  const cardNumberField = document.getElementById('card-number');
+  const cardNumberField = document.getElementById('number');
 
   masker(cardNumberField).maskPattern("9999 9999 9999 9999");
 
   cardNumberField.oninput = function () {
     const cardNumber = cardNumberField.value;
+    const bank = banksDB(cardNumber);
     const bankInfo = document.getElementById('card');
     const bankName = document.getElementById('bank-name');
-    const cardType = document.getElementById('card-type');
-    const cardTypeFound = 'card__type_visible';
-    const bankFound = 'card__bank-name_visible';
-    const bank = banksDB(cardNumber);
+    const cardType = document.getElementById('type');
 
     if (typeof bank.name !== 'undefined') {
+      const bankClass = 'is-' + bank.country + '-' + bank.name;
+
       bankName.innerHTML = bank.engTitle;
-      bankName.classList.add(bankFound);
-      bankInfo.style.background = bank.color;
+      bankName.classList.add('visible');
+      bankInfo.classList.add(bankClass);
     } else {
+      bankName.classList.remove('visible');
+      bankInfo.setAttribute('class', 'card');
       bankName.innerHTML = '';
-      bankName.classList.remove(bankFound);
-      bankInfo.removeAttribute('style');
     }
 
     if (typeof bank.type !== 'undefined') {
       cardType.innerHTML = bank.type;
-      cardType.classList.add(cardTypeFound);
+      cardType.classList.add('visible');
     } else {
       cardType.innerHTML = '';
-      cardType.classList.remove(cardTypeFound);
+      cardType.classList.remove('visible');
     }
   };
 };
