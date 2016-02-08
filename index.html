@@ -9,11 +9,20 @@
 <body>
 
 <div class="container">
+  <h1 class="heading">
+    This is a demo page of <a class="link">Banks DB</a>,
+    tool to get <br> bank name and brand color by bankcard prefix (BIN).
+  </h1>
+  <p class="notice">Notice: only first 6 digits of card number are required.</p>
     <div class="card" id="card">
         <p class="bank-name" id="bank-name"></p>
         <input type="text" id="number" class="number" autofocus maxlength="22" placeholder="0000 00XX XXXX XXXX">
         <p class="type" id="type"></p>
     </div>
+  <div class="hint">
+    <p class="hint__text"> It looks like your bank or prefix isn't in Banks DB,<br>
+      <a class="link" href="https://github.com/ramoona/banks-db/blob/master/CONTRIBUTING.md">contribute</a> or create an <a class="link" href="https://github.com/ramoona/banks-db/issues">issue</a>.</p>
+  </div>
 </div>
 
 </body>

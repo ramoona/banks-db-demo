@@ -3,8 +3,11 @@
   src: url(../assets/Halter.woff);
 }
 
-html {font-size: 9px}
-body {font-size: 16px}
+html {
+  font-size: 16px;
+  color: #666;
+  font-family: sans-serif;
+}
 
 .container {
   display: flex;
@@ -12,6 +15,28 @@ body {font-size: 16px}
   align-items: center;
   justify-content: flex-start;
   min-height: 100vh;
+}
+
+.heading {
+  padding: 0 1rem;
+  text-align: left;
+  border-left: .5rem solid #666;
+  margin: 4rem 1rem 1rem;
+  font-weight: normal;
+  font-size: 1.8rem;
+}
+
+.link {
+  color: #0A9AB5;
+  cursor: pointer;
+  transition: .3s color;
+  &:hover {
+    color: #007B92;
+  }
+}
+
+.notice {
+  margin: 30px 0;
 }
 
 .card {
@@ -31,12 +56,12 @@ body {font-size: 16px}
 }
 
 .number {
-  height: 4rem;
-  width: calc(100% - 4rem);
-  margin-left: 2rem;
+  height: 36px;
+  width: calc(100% - 2rem);
+  margin-left: 1rem;
   box-sizing: border-box;
-  font-size: 1.1em;
-  padding: .5rem 1.5rem;
+  font-size: 1.1rem;
+  padding: .5rem 1rem;
   font-family: 'Halter';
   outline: none;
   background: rgba(255, 255,255, .2);
@@ -47,17 +72,21 @@ body {font-size: 16px}
 
 .type,
 .bank-name {
-  height: 8rem;
-  line-height: 8rem;
-  opacity: 0;
+  height: 4rem;
+  line-height: 4rem;
   margin: 0;
-  transition: .4s opacity ease;
   text-transform: uppercase;
-  padding: 0 4rem;
+  padding: 0 2rem;
   width: 100%;
   box-sizing: border-box;
   color: inherit;
+}
 
+.type,
+.bank-name,
+.hint {
+  opacity: 0;
+  transition: .4s opacity;
   &.visible {
     opacity: 1;
   }
@@ -67,9 +96,20 @@ body {font-size: 16px}
   text-align: left;
   padding-top: 1rem
 }
+
 .type {
   align-self: flex-end;
   text-align: right;
+}
+
+.hint {
+  margin-top: 2rem;
+  text-align: center;
+
+  &__text {
+    margin: 0;
+    line-height: 1.5em;
+  }
 }
 
 @banks-db-template {

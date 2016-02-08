@@ -12,10 +12,11 @@ window.onload = function () {
     const bankInfo = document.getElementById('card');
     const bankName = document.getElementById('bank-name');
     const cardType = document.getElementById('type');
+    const hint = document.querySelector('.hint');
 
     if (typeof bank.name !== 'undefined') {
       const bankClass = 'is-' + bank.country + '-' + bank.name;
-
+      hint.classList.remove('visible');
       bankName.innerHTML = bank.engTitle;
       bankName.classList.add('visible');
       bankInfo.classList.add(bankClass);
@@ -23,6 +24,14 @@ window.onload = function () {
       bankName.classList.remove('visible');
       bankInfo.setAttribute('class', 'card');
       bankName.innerHTML = '';
+
+      if (cardNumber.length >= 7) {
+        bankName.innerHTML = 'Unknown bank';
+        bankName.classList.add('visible');
+        hint.classList.add('visible');
+      } else {
+        hint.classList.remove('visible');
+      }
     }
 
     if (typeof bank.type !== 'undefined') {
