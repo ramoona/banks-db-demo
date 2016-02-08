@@ -10,7 +10,7 @@ body {font-size: 16px}
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   min-height: 100vh;
 }
 
@@ -35,7 +35,7 @@ body {font-size: 16px}
   width: calc(100% - 4rem);
   margin-left: 2rem;
   box-sizing: border-box;
-  font-size: 1.2em;
+  font-size: 1.1em;
   padding: .5rem 1.5rem;
   font-family: 'Halter';
   outline: none;
@@ -43,15 +43,6 @@ body {font-size: 16px}
   border: none;
   border-radius: 5px;
   color: inherit;
-}
-
-.bank-name {
-  text-align: left;
-  padding-top: 1rem
-}
-.type {
-  align-self: flex-end;
-  text-align: right;
 }
 
 .type,
@@ -70,6 +61,15 @@ body {font-size: 16px}
   &.visible {
     opacity: 1;
   }
+}
+
+.bank-name {
+  text-align: left;
+  padding-top: 1rem
+}
+.type {
+  align-self: flex-end;
+  text-align: right;
 }
 
 @banks-db-template {

@@ -4,7 +4,7 @@ const masker = require('vanilla-masker');
 window.onload = function () {
   const cardNumberField = document.getElementById('number');
 
-  masker(cardNumberField).maskPattern("9999 9999 9999 9999");
+  masker(cardNumberField).maskPattern("9999 9999 9999 9999 99");
 
   cardNumberField.oninput = function () {
     const cardNumber = cardNumberField.value;
