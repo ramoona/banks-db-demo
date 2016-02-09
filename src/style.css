@@ -15,28 +15,38 @@ html {
   align-items: center;
   justify-content: flex-start;
   min-height: 100vh;
+  min-width: 430px;
 }
 
 .heading {
-  padding: 0 1rem;
-  text-align: left;
-  border-left: .5rem solid #666;
-  margin: 4rem 1rem 1rem;
+  padding: 0 2rem 1rem;
+  border-bottom: 2px solid #8A8A8A;
+  margin: 3rem 1rem 1rem;
   font-weight: normal;
-  font-size: 1.8rem;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.repo-link {
+  text-shadow: 1px 1px 0 #666;
+  font-size: 3.5rem;
+  transition: .4s color;
+  font-weight: bold;
+  display: block;
+  color: #D6D6D6;
 }
 
 .link {
-  color: #0A9AB5;
+  color: #A7A7A7;
   cursor: pointer;
   transition: .3s color;
   &:hover {
-    color: #007B92;
+    color: #868585;
   }
 }
 
 .notice {
-  margin: 30px 0;
+  margin: 2rem 0;
 }
 
 .card {
@@ -53,62 +63,56 @@ html {
   box-shadow: 2px 2px 10px #999;
   transition: .6s background-color, .6s color;
   overflow: hidden;
-}
 
-.number {
-  height: 36px;
-  width: calc(100% - 2rem);
-  margin-left: 1rem;
-  box-sizing: border-box;
-  font-size: 1.1rem;
-  padding: .5rem 1rem;
-  font-family: 'Halter';
-  outline: none;
-  background: rgba(255, 255,255, .2);
-  border: none;
-  border-radius: 5px;
-  color: inherit;
-}
-
-.type,
-.bank-name {
-  height: 4rem;
-  line-height: 4rem;
-  margin: 0;
-  text-transform: uppercase;
-  padding: 0 2rem;
-  width: 100%;
-  box-sizing: border-box;
-  color: inherit;
-}
-
-.type,
-.bank-name,
-.hint {
-  opacity: 0;
-  transition: .4s opacity;
-  &.visible {
-    opacity: 1;
+  &__number {
+    height: 36px;
+    width: calc(100% - 2rem);
+    margin-left: 1rem;
+    box-sizing: border-box;
+    font-size: 1.1rem;
+    padding: .5rem 1rem;
+    font-family: 'Halter';
+    outline: none;
+    background: rgba(255, 255,255, .2);
+    border: none;
+    border-radius: 5px;
+    color: inherit;
   }
-}
 
-.bank-name {
-  text-align: left;
-  padding-top: 1rem
-}
+  &__type,
+  &__bank-name {
+    height: 4rem;
+    line-height: 4rem;
+    margin: 0;
+    text-transform: uppercase;
+    padding: 0 2rem;
+    width: 100%;
+    box-sizing: border-box;
+    color: inherit;
+  }
 
-.type {
-  align-self: flex-end;
-  text-align: right;
+  &__bank-name {
+    text-align: left;
+    padding-top: 1rem
+  }
+
+  &__type {
+    align-self: flex-end;
+    text-align: right;
+  }
 }
 
 .hint {
   margin-top: 2rem;
   text-align: center;
+  line-height: 1.5em;
+}
 
-  &__text {
-    margin: 0;
-    line-height: 1.5em;
+.opacity-transition {
+  opacity: 0;
+  transition: .4s opacity;
+  &.visible {
+    opacity: 1;
   }
 }
 

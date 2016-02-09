@@ -9,14 +9,16 @@
     "bin",
     "bank",
     "card",
+    "demo",
     "color",
-    "logo",
     "database",
     "db"
   ],
+  "dependencies": {
+    "banks-db": "^0.4.0"
+  },
   "devDependencies": {
     "autoprefixer": "^6.3.1",
-    "banks-db": "^0.4.0",
     "eslint": "^1.10.3",
     "eslint-config-airbnb": "^4.0.0",
     "gulp": "^3.9.0",

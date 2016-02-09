@@ -185,29 +185,39 @@ html {
   align-items: center;
   justify-content: flex-start;
   min-height: 100vh;
+  min-width: 430px;
 }
 
 .heading {
-  padding: 0 1rem;
-  text-align: left;
-  border-left: .5rem solid #666;
-  margin: 4rem 1rem 1rem;
+  padding: 0 2rem 1rem;
+  border-bottom: 2px solid #8A8A8A;
+  margin: 3rem 1rem 1rem;
   font-weight: normal;
-  font-size: 1.8rem;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.repo-link {
+  text-shadow: 1px 1px 0 #666;
+  font-size: 3.5rem;
+  transition: .4s color;
+  font-weight: bold;
+  display: block;
+  color: #D6D6D6;
 }
 
 .link {
-  color: #0A9AB5;
+  color: #A7A7A7;
   cursor: pointer;
   transition: .3s color;
 }
 
 .link:hover {
-  color: #007B92;
+  color: #868585;
 }
 
 .notice {
-  margin: 30px 0;
+  margin: 2rem 0;
 }
 
 .card {
@@ -226,7 +236,7 @@ html {
   overflow: hidden;
 }
 
-.number {
+.card__number {
   height: 36px;
   width: calc(100% - 2rem);
   margin-left: 1rem;
@@ -241,8 +251,8 @@ html {
   color: inherit;
 }
 
-.type,
-.bank-name {
+.card__type,
+  .card__bank-name {
   height: 4rem;
   line-height: 4rem;
   margin: 0;
@@ -253,23 +263,12 @@ html {
   color: inherit;
 }
 
-.type,
-.bank-name,
-.hint {
-  opacity: 0;
-  transition: .4s opacity;
-}
-
-.type.visible, .bank-name.visible, .hint.visible {
-  opacity: 1;
-}
-
-.bank-name {
+.card__bank-name {
   text-align: left;
   padding-top: 1rem
 }
 
-.type {
+.card__type {
   align-self: flex-end;
   text-align: right;
 }
@@ -277,11 +276,16 @@ html {
 .hint {
   margin-top: 2rem;
   text-align: center;
+  line-height: 1.5em;
 }
 
-.hint__text {
-  margin: 0;
-  line-height: 1.5em;
+.opacity-transition {
+  opacity: 0;
+  transition: .4s opacity;
+}
+
+.opacity-transition.visible {
+  opacity: 1;
 }
 
 .card.is-ru-alfabank {

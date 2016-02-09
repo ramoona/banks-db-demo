@@ -2,30 +2,33 @@ const banksDB = require('banks-db');
 const masker = require('vanilla-masker');
 
 window.onload = function () {
-  const cardNumberField = document.getElementById('number');
+  const cardNumber = document.getElementById('number');
 
-  masker(cardNumberField).maskPattern("9999 9999 9999 9999 99");
+  masker(cardNumber).maskPattern("9999 9999 9999 9999 99");
 
-  cardNumberField.oninput = function () {
-    const cardNumber = cardNumberField.value;
-    const bank = banksDB(cardNumber);
+  cardNumber.oninput = function () {
+    const bank = banksDB(cardNumber.value);
     const bankInfo = document.getElementById('card');
     const bankName = document.getElementById('bank-name');
     const cardType = document.getElementById('type');
+    const repoLink = document.querySelector('.repo-link');
     const hint = document.querySelector('.hint');
+    const bankClass = 'is-' + bank.country + '-' + bank.name;
 
     if (typeof bank.name !== 'undefined') {
-      const bankClass = 'is-' + bank.country + '-' + bank.name;
+
       hint.classList.remove('visible');
       bankName.innerHTML = bank.engTitle;
       bankName.classList.add('visible');
       bankInfo.classList.add(bankClass);
+      repoLink.style.color = bank.color;
     } else {
       bankName.classList.remove('visible');
       bankInfo.setAttribute('class', 'card');
       bankName.innerHTML = '';
+      repoLink.removeAttribute('style');
 
-      if (cardNumber.length >= 7) {
+      if (cardNumber.value.length >= 7) {
         bankName.innerHTML = 'Unknown bank';
         bankName.classList.add('visible');
         hint.classList.add('visible');
