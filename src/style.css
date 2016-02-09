@@ -30,10 +30,16 @@ html {
 .repo-link {
   text-shadow: 1px 1px 0 #666;
   font-size: 3.5rem;
-  transition: .4s color;
+  transition: .4s color, .4s opacity;
   font-weight: bold;
+  opacity: .8;
   display: block;
   color: #D6D6D6;
+  cursor: pointer;
+  text-decoration: none;
+  &:hover {
+    opacity: 1;
+  }
 }
 
 .link {
