@@ -806,7 +806,6 @@ window.onload = function () {
     const bankInfo = document.getElementById('card');
     const bankName = document.getElementById('bank-name');
     const cardType = document.getElementById('type');
-    const repoLink = document.querySelector('.repo-link');
     const hint = document.querySelector('.hint');
     const bankClass = 'is-' + bank.country + '-' + bank.name;
 
@@ -816,12 +815,10 @@ window.onload = function () {
       bankName.innerHTML = bank.engTitle;
       bankName.classList.add('visible');
       bankInfo.classList.add(bankClass);
-      repoLink.style.color = bank.color;
     } else {
       bankName.classList.remove('visible');
       bankInfo.setAttribute('class', 'card');
       bankName.innerHTML = '';
-      repoLink.removeAttribute('style');
 
       if (cardNumber.value.length >= 7) {
         bankName.innerHTML = 'Unknown bank';

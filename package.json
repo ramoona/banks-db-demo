@@ -15,7 +15,7 @@
     "db"
   ],
   "dependencies": {
-    "banks-db": "^0.4.0"
+    "banks-db": "^0.5.0"
   },
   "devDependencies": {
     "autoprefixer": "^6.3.1",

@@ -6,7 +6,7 @@
 html {
   font-size: 16px;
   color: #666;
-  font-family: sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .container {
@@ -25,30 +25,32 @@ html {
   font-weight: normal;
   font-size: 1.2rem;
   text-align: center;
-}
 
-.repo-link {
-  text-shadow: 1px 1px 0 #666;
-  font-size: 3.5rem;
-  transition: .4s color, .4s opacity;
-  font-weight: bold;
-  opacity: .8;
-  display: block;
-  color: #D6D6D6;
-  cursor: pointer;
-  text-decoration: none;
-  &:hover {
-    opacity: 1;
+  &__descr {
+    margin: 0;
   }
 }
 
 .link {
-  color: #A7A7A7;
-  cursor: pointer;
-  transition: .3s color;
+  color: #4078C0;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: .2s border-color;
+  line-height: 90%;
+  display: inline-block;
+
   &:hover {
-    color: #868585;
+    border-color: currentColor;
+    cursor: pointer;
   }
+}
+
+.repo {
+  font-size: 3.5rem;
+  margin-bottom: .5rem;
+  font-weight: bold;
+  border-width: 4px;
+
 }
 
 .notice {
