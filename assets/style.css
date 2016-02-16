@@ -231,8 +231,7 @@ html {
   border-radius: 15px;
   height: 240px;
   width: 388px;
-  background: #e2e2e2;
-  border: #808080;
+  background: #E2E2E2;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -345,6 +344,11 @@ html {
   color: #fff;
 }
 
+.card.is-ru-rocketbank {
+  background-color: #FB8000;
+  color: #fff;
+}
+
 .card.is-by-alfabank-by {
   background-color: #EE3124;
   color: #fff;
@@ -418,6 +422,11 @@ html {
 .card.is-by-priorbank {
   background-color: #FFFF00;
   color: #000;
+}
+
+.card.is-ru-siab {
+  background-color: #0F255C;
+  color: #fff;
 }
 
 .card.is-by-trustbank {

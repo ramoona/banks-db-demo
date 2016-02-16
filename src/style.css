@@ -61,8 +61,7 @@ html {
   border-radius: 15px;
   height: 240px;
   width: 388px;
-  background: #e2e2e2;
-  border: #808080;
+  background: #E2E2E2;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

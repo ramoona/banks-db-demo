@@ -12,14 +12,12 @@ window.onload = function () {
     const bankName = document.getElementById('bank-name');
     const cardType = document.getElementById('type');
     const hint = document.querySelector('.hint');
-    const bankClass = 'is-' + bank.country + '-' + bank.name;
 
     if (typeof bank.name !== 'undefined') {
-
       hint.classList.remove('visible');
       bankName.innerHTML = bank.engTitle;
       bankName.classList.add('visible');
-      bankInfo.classList.add(bankClass);
+      bankInfo.classList.add('is-' + bank.code);
     } else {
       bankName.classList.remove('visible');
       bankInfo.setAttribute('class', 'card');
