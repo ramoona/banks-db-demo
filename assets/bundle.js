@@ -1,5 +1,37 @@
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
 module.exports={
+  "name": "amexbelgiumcorporate",
+  "prefixes": [
+    374190
+  ],
+  "country": "be",
+  "localTitle": "American Express",
+  "engTitle": "American Express",
+  "url": "https://network.americanexpress.com/be/fr/homepage/landing.aspx",
+  "color": "#67b198"
+}
+
+},{}],2:[function(require,module,exports){
+module.exports = [
+  require('./amexbelgiumcorporate'),
+  require('./ingbelgium')
+];
+
+},{"./amexbelgiumcorporate":1,"./ingbelgium":3}],3:[function(require,module,exports){
+module.exports={
+  "name": "ingbelgium",
+  "prefixes": [
+    42360
+  ],
+  "country": "be",
+  "localTitle": "ING Belgium",
+  "engTitle": "ING Belgium",
+  "url": "https://www.ing.be/",
+  "color": "#ff6600"
+}
+
+},{}],4:[function(require,module,exports){
+module.exports={
   "name": "absolutbank",
   "prefixes": [
     458563
@@ -8,11 +40,12 @@ module.exports={
   "localTitle": "Абсолютбанк",
   "engTitle": "Absolutbank",
   "url": "http://www.absolutbank.by",
-  "color": "#B72930"
+  "color": "#b72930"
 }
-},{}],2:[function(require,module,exports){
+
+},{}],5:[function(require,module,exports){
 module.exports={
-  "name": "alfabank-by",
+  "name": "alfabank",
   "prefixes": [
     437350,
     458520,
@@ -24,43 +57,10 @@ module.exports={
   "localTitle": "Альфабанк",
   "engTitle": "Alfabank",
   "url": "https://www.alfabank.by/",
-  "color": "#EE3124"
-}
-},{}],3:[function(require,module,exports){
-module.exports={
-  "name": "alfabank",
-  "prefixes": [
-    521178,
-    548673,
-    548601,
-    45841,
-    415428,
-    415481,
-    415482,
-    676371,
-    477964
-  ],
-  "country": "ru",
-  "localTitle": "Альфа-Банк",
-  "engTitle": "Alfa-Bank",
-  "url": "https://alfabank.ru/",
-  "color": "#F22F17"
+  "color": "#ee3124"
 }
 
-},{}],4:[function(require,module,exports){
-module.exports={
-  "name": "amexbelgiumcorporate",
-  "prefixes": [
-    374190
-  ],
-  "country": "be",
-  "localTitle": "American Express",
-  "engTitle": "American Express",
-  "url": "https://network.americanexpress.com/be/fr/homepage/landing.aspx",
-  "color": "#67B198"
-}
-
-},{}],5:[function(require,module,exports){
+},{}],6:[function(require,module,exports){
 module.exports={
   "name": "belapb",
   "prefixes": [
@@ -79,9 +79,10 @@ module.exports={
   "localTitle": "Белагропромбанк",
   "engTitle": "Belagroprombank",
   "url": "http://www.belapb.by",
-  "color": "#FAB606"
+  "color": "#fab606"
 }
-},{}],6:[function(require,module,exports){
+
+},{}],7:[function(require,module,exports){
 module.exports={
   "name": "belarusbank",
   "prefixes": [
@@ -107,9 +108,10 @@ module.exports={
   "localTitle": "Беларусбанк",
   "engTitle": "Belarusbank",
   "url": "http://www.belarusbank.by",
-  "color": "#127D49"
+  "color": "#127d49"
 }
-},{}],7:[function(require,module,exports){
+
+},{}],8:[function(require,module,exports){
 module.exports={
   "name": "belaruskynarodny",
   "prefixes": [
@@ -122,9 +124,10 @@ module.exports={
   "localTitle": "Белорусский народный банк",
   "engTitle": "Beloruskii Narodny Bank",
   "url": "http://www.bnb.by",
-  "color": "#F89828"
+  "color": "#f89828"
 }
-},{}],8:[function(require,module,exports){
+
+},{}],9:[function(require,module,exports){
 module.exports={
   "name": "belgazprom",
   "prefixes": [
@@ -141,9 +144,10 @@ module.exports={
   "localTitle": "Белгазпромбанк",
   "engTitle": "Belgazprombank",
   "url": "http://www.belgazprombank.by",
-  "color": "#0079C2"
+  "color": "#0079c2"
 }
-},{}],9:[function(require,module,exports){
+
+},{}],10:[function(require,module,exports){
 module.exports={
   "name": "belinvestbank",
   "prefixes": [
@@ -164,9 +168,10 @@ module.exports={
   "url": "http://www.belinvestbank.by/",
   "color": "#009881"
 }
-},{}],10:[function(require,module,exports){
+
+},{}],11:[function(require,module,exports){
 module.exports={
-  "name": "bellswissbank",
+  "name": "belswissbank",
   "prefixes": [
     410745,
     410746
@@ -175,9 +180,10 @@ module.exports={
   "localTitle": "БелСвиссБанк",
   "engTitle": "BelSwiss",
   "url": "https://www.bsb.by/",
-  "color": "#EE1D23"
+  "color": "#ee1d23"
 }
-},{}],11:[function(require,module,exports){
+
+},{}],12:[function(require,module,exports){
 module.exports={
   "name": "belveb",
   "prefixes": [
@@ -201,9 +207,10 @@ module.exports={
   "localTitle": "Банк БелВЭБ",
   "engTitle": "BelVEB Bank",
   "url": "http://www.bveb.by/",
-  "color": "#F37637"
+  "color": "#f37637"
 }
-},{}],12:[function(require,module,exports){
+
+},{}],13:[function(require,module,exports){
 module.exports={
   "name": "bpssberbank",
   "prefixes": [
@@ -221,19 +228,7 @@ module.exports={
   "localTitle": "БПС-Сбербанк",
   "engTitle": "BPS-Sberbank",
   "url": "http://www.bps-sberbank.by/",
-  "color": "#1B991B"
-}
-},{}],13:[function(require,module,exports){
-module.exports={
-  "name": "citibank",
-  "prefixes": [
-    527594
-  ],
-  "country": "ru",
-  "localTitle": "Ситибанк",
-  "engTitle": "Citibank",
-  "url": "https://www.citibank.ru/",
-  "color": "#0088CF"
+  "color": "#1b991b"
 }
 
 },{}],14:[function(require,module,exports){
@@ -248,9 +243,10 @@ module.exports={
   "localTitle": "Дельтабанк",
   "engTitle": "Delta Bank",
   "url": "http://deltabank.by/",
-  "color": "#D81E05",
+  "color": "#d81e05",
   "defunct": true
 }
+
 },{}],15:[function(require,module,exports){
 module.exports={
   "name": "homecredit",
@@ -263,50 +259,32 @@ module.exports={
   "localTitle": "Хоум Кредит Банк",
   "engTitle": "Home Credit Bank",
   "url": "http://homecredit.by/",
-  "color": "#E03A3E"
+  "color": "#e03a3e"
 }
+
 },{}],16:[function(require,module,exports){
-module.exports={
-  "name": "ingbelgium",
-  "prefixes": [
-    42360
-  ],
-  "country": "be",
-  "localTitle": "ING Belgium",
-  "engTitle": "ING Belgium",
-  "url": "https://www.ing.be/",
-  "color": "#ff6600"
-}
+module.exports = [
+  require('./absolutbank'),
+  require('./alfabank'),
+  require('./belapb'),
+  require('./belarusbank'),
+  require('./belaruskynarodny'),
+  require('./belgazprom'),
+  require('./belinvestbank'),
+  require('./belswissbank'),
+  require('./belveb'),
+  require('./bpssberbank'),
+  require('./deltabank'),
+  require('./homecredit'),
+  require('./moskvaminsk'),
+  require('./mtb'),
+  require('./paritetbank'),
+  require('./priorbank'),
+  require('./trustbank'),
+  require('./vtb')
+];
 
-},{}],17:[function(require,module,exports){
-module.exports={
-  "name": "kazkom",
-  "prefixes": [
-    440564,
-    400303,
-    557834
-  ],
-  "country": "kz",
-  "localTitle": "Казкоммерцбанк",
-  "engTitle": "Kazkommertsbank",
-  "url": "http://kkb.kz/",
-  "color": "#008FB4"
-}
-
-},{}],18:[function(require,module,exports){
-module.exports={
-  "name": "mdmbank",
-  "prefixes": [
-    554372
-  ],
-  "country": "ru",
-  "localTitle": "МДМ Банк",
-  "engTitle": "MDM Bank",
-  "url": "https://www.mdm.ru/",
-  "color": "#820729"
-}
-
-},{}],19:[function(require,module,exports){
+},{"./absolutbank":4,"./alfabank":5,"./belapb":6,"./belarusbank":7,"./belaruskynarodny":8,"./belgazprom":9,"./belinvestbank":10,"./belswissbank":11,"./belveb":12,"./bpssberbank":13,"./deltabank":14,"./homecredit":15,"./moskvaminsk":17,"./mtb":18,"./paritetbank":19,"./priorbank":20,"./trustbank":21,"./vtb":22}],17:[function(require,module,exports){
 module.exports={
   "name": "moskvaminsk",
   "prefixes": [
@@ -316,9 +294,10 @@ module.exports={
   "localTitle": "Банк Москва-Минск",
   "engTitle": "Bank Moskva-Minsk",
   "url": "http://www.mmbank.by/",
-  "color": "#F2000D"
+  "color": "#f2000d"
 }
-},{}],20:[function(require,module,exports){
+
+},{}],18:[function(require,module,exports){
 module.exports={
   "name": "mtb",
   "prefixes": [
@@ -331,9 +310,10 @@ module.exports={
   "localTitle": "МТБанк",
   "engTitle": "MTBank",
   "url": "http://www.mtbank.by",
-  "color": "#005AAB"
+  "color": "#005aab"
 }
-},{}],21:[function(require,module,exports){
+
+},{}],19:[function(require,module,exports){
 module.exports={
   "name": "paritetbank",
   "prefixes": [
@@ -348,9 +328,10 @@ module.exports={
   "localTitle": "Паритетбанк",
   "engTitle": "Paritetbank",
   "url": "http://www.paritetbank.by/",
-  "color": "#0360A7"
+  "color": "#0360a7"
 }
-},{}],22:[function(require,module,exports){
+
+},{}],20:[function(require,module,exports){
 module.exports={
   "name": "priorbank",
   "prefixes": [
@@ -372,85 +353,10 @@ module.exports={
   "localTitle": "Приорбанк",
   "engTitle": "Priorbank",
   "url": "http://www.priorbank.by",
-  "color": "#FFFF00"
-}
-},{}],23:[function(require,module,exports){
-module.exports={
-  "name": "raiffeisen",
-  "prefixes": [
-    462730,
-    462729,
-    510069
-  ],
-  "country": "ru",
-  "localTitle": "Райффайзенбанк",
-  "engTitle": "Raiffeisenbank",
-  "url": "http://www.raiffeisen.ru/",
-  "color": "#FFF300"
+  "color": "#ffff00"
 }
 
-},{}],24:[function(require,module,exports){
-module.exports={
-  "name": "rocketbank",
-  "prefixes": [
-    532130
-  ],
-  "country": "ru",
-  "localTitle": "Рокетбанк",
-  "engTitle": "Rocketbank",
-  "url": "https://rocketbank.ru/",
-  "color": "#FB8000"
-}
-
-},{}],25:[function(require,module,exports){
-module.exports={
-  "name": "sberbank",
-  "prefixes": [
-    427683,
-    63900,
-    67758,
-    427901,
-    54693,
-    427644,
-    427601,
-    427631,
-    42765
-  ],
-  "country": "ru",
-  "localTitle": "Сбербанк" ,
-  "engTitle": "Sberbank",
-  "url": "https://www.sberbank.ru",
-  "color": "#309C0B"
-}
-
-},{}],26:[function(require,module,exports){
-module.exports={
-  "name": "siab",
-  "prefixes": [
-    531544
-  ],
-  "country": "ru",
-  "localTitle": "СИАБ",
-  "engTitle": "SIAB",
-  "url": "https://siab.ru/",
-  "color": "#0F255C"
-}
-
-},{}],27:[function(require,module,exports){
-module.exports={
-  "name": "tinkoff",
-  "prefixes": [
-    521324,
-    437773
-  ],
-  "country": "ru",
-  "localTitle": "Тинькофф Банк",
-  "engTitle": "Tinkoff Bank",
-  "url": "https://www.tinkoff.ru/",
-  "color": "#FFDD2D"
-}
-
-},{}],28:[function(require,module,exports){
+},{}],21:[function(require,module,exports){
 module.exports={
   "name": "trustbank",
   "prefixes": [
@@ -462,9 +368,10 @@ module.exports={
   "localTitle": "Трастбанк",
   "engTitle": "Trustbank",
   "url": "http://www.trustbank.by/",
-  "color": "#A81429"
+  "color": "#a81429"
 }
-},{}],29:[function(require,module,exports){
+
+},{}],22:[function(require,module,exports){
 module.exports={
   "name": "vtb",
   "prefixes": [
@@ -478,9 +385,203 @@ module.exports={
   "localTitle": "ВТБ (Беларусь)",
   "engTitle": "VTB (Belarus)",
   "url": "http://www.vtb-bank.by",
-  "color": "#002E77"
+  "color": "#002e77"
 }
-},{}],30:[function(require,module,exports){
+
+},{}],23:[function(require,module,exports){
+module.exports = [
+  require('./be/index'),
+  require('./by/index'),
+  require('./kz/index'),
+  require('./ru/index')
+];
+
+},{"./be/index":2,"./by/index":16,"./kz/index":24,"./ru/index":29}],24:[function(require,module,exports){
+module.exports = [
+  require('./kazkom')
+];
+
+},{"./kazkom":25}],25:[function(require,module,exports){
+module.exports={
+  "name": "kazkom",
+  "prefixes": [
+    440564,
+    400303,
+    557834
+  ],
+  "country": "kz",
+  "localTitle": "Казкоммерцбанк",
+  "engTitle": "Kazkommertsbank",
+  "url": "http://kkb.kz/",
+  "color": "#008fb4"
+}
+
+},{}],26:[function(require,module,exports){
+module.exports={
+  "name": "alfabank",
+  "prefixes": [
+    521178,
+    548673,
+    548601,
+    45841,
+    415428,
+    415481,
+    415482,
+    676371,
+    477964,
+    426101,
+    555957
+  ],
+  "country": "ru",
+  "localTitle": "Альфа-Банк",
+  "engTitle": "Alfa-Bank",
+  "url": "https://alfabank.ru/",
+  "color": "#f22f17"
+}
+
+},{}],27:[function(require,module,exports){
+module.exports={
+  "name": "citibank",
+  "prefixes": [
+    527594,
+    427760,
+    427761
+  ],
+  "country": "ru",
+  "localTitle": "Ситибанк",
+  "engTitle": "Citibank",
+  "url": "https://www.citibank.ru/",
+  "color": "#0088cf"
+}
+
+},{}],28:[function(require,module,exports){
+module.exports={
+  "name": "gazprombank",
+  "prefixes": [
+    677585
+  ],
+  "country": "ru",
+  "localTitle": "Газпромбанк",
+  "engTitle": "Gazprombank",
+  "url": "http://gazprombank.ru/",
+  "color": "#00448b"
+}
+
+},{}],29:[function(require,module,exports){
+module.exports = [
+  require('./alfabank'),
+  require('./citibank'),
+  require('./gazprombank'),
+  require('./mdm'),
+  require('./raiffeisen'),
+  require('./rocketbank'),
+  require('./sberbank'),
+  require('./siab'),
+  require('./tinkoff'),
+  require('./vtb24'),
+  require('./yandex')
+];
+
+},{"./alfabank":26,"./citibank":27,"./gazprombank":28,"./mdm":30,"./raiffeisen":31,"./rocketbank":32,"./sberbank":33,"./siab":34,"./tinkoff":35,"./vtb24":36,"./yandex":37}],30:[function(require,module,exports){
+module.exports={
+  "name": "mdm",
+  "prefixes": [
+    554372
+  ],
+  "country": "ru",
+  "localTitle": "МДМ Банк",
+  "engTitle": "MDM Bank",
+  "url": "https://www.mdm.ru/",
+  "color": "#820729"
+}
+
+},{}],31:[function(require,module,exports){
+module.exports={
+  "name": "raiffeisen",
+  "prefixes": [
+    462730,
+    462729,
+    462758,
+    510069
+  ],
+  "country": "ru",
+  "localTitle": "Райффайзенбанк",
+  "engTitle": "Raiffeisenbank",
+  "url": "http://www.raiffeisen.ru/",
+  "color": "#fff300"
+}
+
+},{}],32:[function(require,module,exports){
+module.exports={
+  "name": "rocketbank",
+  "prefixes": [
+    532130
+  ],
+  "country": "ru",
+  "localTitle": "Рокетбанк",
+  "engTitle": "Rocketbank",
+  "url": "https://rocketbank.ru/",
+  "color": "#fb8000"
+}
+
+},{}],33:[function(require,module,exports){
+module.exports={
+  "name": "sberbank",
+  "prefixes": [
+    427683,
+    639002,
+    67758,
+    427901,
+    54693,
+    427644,
+    427601,
+    427631,
+    42765,
+    427466,
+    427467,
+    427468,
+    427469,
+    427470,
+    427472,
+    427475,
+    427477
+  ],
+  "country": "ru",
+  "localTitle": "Сбербанк",
+  "engTitle": "Sberbank",
+  "url": "https://www.sberbank.ru",
+  "color": "#309c0b"
+}
+
+},{}],34:[function(require,module,exports){
+module.exports={
+  "name": "siab",
+  "prefixes": [
+    531544
+  ],
+  "country": "ru",
+  "localTitle": "СИАБ",
+  "engTitle": "SIAB",
+  "url": "https://siab.ru/",
+  "color": "#0f255c"
+}
+
+},{}],35:[function(require,module,exports){
+module.exports={
+  "name": "tinkoff",
+  "prefixes": [
+    521324,
+    437773,
+    548387
+  ],
+  "country": "ru",
+  "localTitle": "Тинькофф Банк",
+  "engTitle": "Tinkoff Bank",
+  "url": "https://www.tinkoff.ru/",
+  "color": "#ffdd2d"
+}
+
+},{}],36:[function(require,module,exports){
 module.exports={
   "name": "vtb24",
   "prefixes": [
@@ -494,10 +595,10 @@ module.exports={
   "localTitle": "ВТБ 24",
   "engTitle": "VTB 24",
   "url": "http://www.vtb24.ru",
-  "color": "#00498F"
+  "color": "#00498f"
 }
 
-},{}],31:[function(require,module,exports){
+},{}],37:[function(require,module,exports){
 module.exports={
   "name": "yandex",
   "prefixes": [
@@ -510,47 +611,25 @@ module.exports={
   "color": "#000000"
 }
 
-},{}],32:[function(require,module,exports){
-const type = require('./type');
+},{}],38:[function(require,module,exports){
+'use strict';
 
-const banks = [
-  require('./banks/alfabank'),
-  require('./banks/citibank'),
-  require('./banks/mdm'),
-  require('./banks/raiffeisen'),
-  require('./banks/sberbank'),
-  require('./banks/tinkoff'),
-  require('./banks/yandex'),
-  require('./banks/vtb24'),
-  require('./banks/kazkom'),
-  require('./banks/absolutbank'),
-  require('./banks/rocketbank'),
-  require('./banks/alfabank-by'),
-  require('./banks/belapb'),
-  require('./banks/belarusbank'),
-  require('./banks/belaruskynarodny'),
-  require('./banks/belgazprom'),
-  require('./banks/belinvestbank'),
-  require('./banks/belswissbank'),
-  require('./banks/belveb'),
-  require('./banks/bpssberbank'),
-  require('./banks/deltabank'),
-  require('./banks/homecredit'),
-  require('./banks/moskvaminsk'),
-  require('./banks/mtb'),
-  require('./banks/paritetbank'),
-  require('./banks/priorbank'),
-  require('./banks/siab'),
-  require('./banks/trustbank'),
-  require('./banks/vtb'),
-  require('./banks/amexbelgiumcorporate'),
-  require('./banks/ingbelgium')
-];
+const type = require('./type');
+const data = require('./banks/index');
+let banks = [];
+
+data.forEach(item => {
+  banks = banks.concat(item);
+});
+
+banks.forEach(bank => {
+  bank.code = bank.country + '-' + bank.name;
+});
 
 const prefixes = {};
 
-for (var i = 0; i < banks.length; i++) {
-  for (var j = 0; j < banks[i].prefixes.length; j++) {
+for (let i = 0; i < banks.length; i++) {
+  for (let j = 0; j < banks[i].prefixes.length; j++) {
     prefixes[banks[i].prefixes[j]] = banks[i];
   }
 }
@@ -566,9 +645,8 @@ module.exports = function findBank(cardNumber) {
   };
 
   if (bank) {
-    for (var el in bank) {
+    for (const el in bank) {
       result[el] = bank[el];
-      result.code = bank.country + '-' + bank.name;
     }
   }
 
@@ -577,7 +655,7 @@ module.exports = function findBank(cardNumber) {
 
 module.exports.data = banks;
 
-},{"./banks/absolutbank":1,"./banks/alfabank":3,"./banks/alfabank-by":2,"./banks/amexbelgiumcorporate":4,"./banks/belapb":5,"./banks/belarusbank":6,"./banks/belaruskynarodny":7,"./banks/belgazprom":8,"./banks/belinvestbank":9,"./banks/belswissbank":10,"./banks/belveb":11,"./banks/bpssberbank":12,"./banks/citibank":13,"./banks/deltabank":14,"./banks/homecredit":15,"./banks/ingbelgium":16,"./banks/kazkom":17,"./banks/mdm":18,"./banks/moskvaminsk":19,"./banks/mtb":20,"./banks/paritetbank":21,"./banks/priorbank":22,"./banks/raiffeisen":23,"./banks/rocketbank":24,"./banks/sberbank":25,"./banks/siab":26,"./banks/tinkoff":27,"./banks/trustbank":28,"./banks/vtb":29,"./banks/vtb24":30,"./banks/yandex":31,"./type":33}],33:[function(require,module,exports){
+},{"./banks/index":23,"./type":39}],39:[function(require,module,exports){
 module.exports = function detectCardType(cardNumber) {
   const card = cardNumber.toString().replace(/[^\d]/g, '');
   const types = {
@@ -602,7 +680,7 @@ module.exports = function detectCardType(cardNumber) {
   }
 };
 
-},{}],34:[function(require,module,exports){
+},{}],40:[function(require,module,exports){
 (function(root, factory) {
   if (typeof define === 'function' && define.amd) {
     define(factory);
@@ -821,13 +899,12 @@ module.exports = function detectCardType(cardNumber) {
   return VMasker;
 }));
 
-},{}],35:[function(require,module,exports){
+},{}],41:[function(require,module,exports){
 const banksDB = require('banks-db');
 const masker = require('vanilla-masker');
 
 window.onload = function () {
   const cardNumber = document.getElementById('number');
-
   masker(cardNumber).maskPattern("9999 9999 9999 9999 99");
 
   cardNumber.oninput = function () {
@@ -837,11 +914,11 @@ window.onload = function () {
     const cardType = document.getElementById('type');
     const hint = document.querySelector('.hint');
 
-    if (typeof bank.name !== 'undefined') {
+    if ( bank.code ) {
       hint.classList.remove('visible');
-      bankName.innerHTML = bank.engTitle;
-      bankName.classList.add('visible');
       bankInfo.classList.add('is-' + bank.code);
+      bankName.innerText = bank.country === 'ru' ? bank.localTitle : bank.engTitle;
+      bankName.classList.add('visible');
     } else {
       bankName.classList.remove('visible');
       bankInfo.setAttribute('class', 'card');
@@ -856,7 +933,7 @@ window.onload = function () {
       }
     }
 
-    if (typeof bank.type !== 'undefined') {
+    if ( bank.type ) {
       cardType.innerHTML = bank.type;
       cardType.classList.add('visible');
     } else {
@@ -866,4 +943,4 @@ window.onload = function () {
   };
 };
 
-},{"banks-db":32,"vanilla-masker":34}]},{},[35]);
+},{"banks-db":38,"vanilla-masker":40}]},{},[41]);

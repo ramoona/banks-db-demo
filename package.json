@@ -1,6 +1,6 @@
 {
   "name": "banks-db-demo",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Demo page for Banks DB",
   "author": "Linda Rian <lindarian12@gmail.com>",
   "repository": "Ramoona/banks-db-demo",
@@ -15,7 +15,8 @@
     "db"
   ],
   "dependencies": {
-    "banks-db": "^0.6.0"
+    "banks-db": "^0.7.0",
+    "postcss-banks-db": "^0.3.0"
   },
   "devDependencies": {
     "autoprefixer": "^6.3.1",
@@ -26,7 +27,6 @@
     "browserify": "^13.0.0",
     "postcss-nested": "^1.0.0",
     "postcss-normalize": "^0.1.2",
-    "postcss-banks-db": "^0.2.0",
     "postcss-contrast": "^0.0.4",
     "vinyl-source-stream": "^1.1.0",
     "vanilla-masker": "^1.0.9"

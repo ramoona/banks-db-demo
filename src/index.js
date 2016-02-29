@@ -3,7 +3,6 @@ const masker = require('vanilla-masker');
 
 window.onload = function () {
   const cardNumber = document.getElementById('number');
-
   masker(cardNumber).maskPattern("9999 9999 9999 9999 99");
 
   cardNumber.oninput = function () {
@@ -13,11 +12,11 @@ window.onload = function () {
     const cardType = document.getElementById('type');
     const hint = document.querySelector('.hint');
 
-    if (typeof bank.name !== 'undefined') {
+    if ( bank.code ) {
       hint.classList.remove('visible');
-      bankName.innerHTML = bank.engTitle;
-      bankName.classList.add('visible');
       bankInfo.classList.add('is-' + bank.code);
+      bankName.innerText = bank.country === 'ru' ? bank.localTitle : bank.engTitle;
+      bankName.classList.add('visible');
     } else {
       bankName.classList.remove('visible');
       bankInfo.setAttribute('class', 'card');
@@ -32,7 +31,7 @@ window.onload = function () {
       }
     }
 
-    if (typeof bank.type !== 'undefined') {
+    if ( bank.type ) {
       cardType.innerHTML = bank.type;
       cardType.classList.add('visible');
     } else {

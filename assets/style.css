@@ -294,83 +294,43 @@ html {
   opacity: 1;
 }
 
-.card.is-ru-alfabank {
-  background-color: #F22F17;
+.card.is-be-amexbelgiumcorporate {
+  background-color: #67b198;
   color: #fff;
 }
 
-.card.is-ru-citibank {
-  background-color: #0088CF;
-  color: #fff;
-}
-
-.card.is-ru-mdmbank {
-  background-color: #820729;
-  color: #fff;
-}
-
-.card.is-ru-raiffeisen {
-  background-color: #FFF300;
-  color: #000;
-}
-
-.card.is-ru-sberbank {
-  background-color: #309C0B;
-  color: #fff;
-}
-
-.card.is-ru-tinkoff {
-  background-color: #FFDD2D;
-  color: #000;
-}
-
-.card.is-ru-yandex {
-  background-color: #000000;
-  color: #fff;
-}
-
-.card.is-ru-vtb24 {
-  background-color: #00498F;
-  color: #fff;
-}
-
-.card.is-kz-kazkom {
-  background-color: #008FB4;
+.card.is-be-ingbelgium {
+  background-color: #ff6600;
   color: #fff;
 }
 
 .card.is-by-absolutbank {
-  background-color: #B72930;
+  background-color: #b72930;
   color: #fff;
 }
 
-.card.is-ru-rocketbank {
-  background-color: #FB8000;
-  color: #fff;
-}
-
-.card.is-by-alfabank-by {
-  background-color: #EE3124;
+.card.is-by-alfabank {
+  background-color: #ee3124;
   color: #fff;
 }
 
 .card.is-by-belapb {
-  background-color: #FAB606;
+  background-color: #fab606;
   color: #000;
 }
 
 .card.is-by-belarusbank {
-  background-color: #127D49;
+  background-color: #127d49;
   color: #fff;
 }
 
 .card.is-by-belaruskynarodny {
-  background-color: #F89828;
+  background-color: #f89828;
   color: #fff;
 }
 
 .card.is-by-belgazprom {
-  background-color: #0079C2;
+  background-color: #0079c2;
   color: #fff;
 }
 
@@ -379,72 +339,117 @@ html {
   color: #fff;
 }
 
-.card.is-by-bellswissbank {
-  background-color: #EE1D23;
+.card.is-by-belswissbank {
+  background-color: #ee1d23;
   color: #fff;
 }
 
 .card.is-by-belveb {
-  background-color: #F37637;
+  background-color: #f37637;
   color: #fff;
 }
 
 .card.is-by-bpssberbank {
-  background-color: #1B991B;
+  background-color: #1b991b;
   color: #fff;
 }
 
 .card.is-by-deltabank {
-  background-color: #D81E05;
+  background-color: #d81e05;
   color: #fff;
 }
 
 .card.is-by-homecredit {
-  background-color: #E03A3E;
+  background-color: #e03a3e;
   color: #fff;
 }
 
 .card.is-by-moskvaminsk {
-  background-color: #F2000D;
+  background-color: #f2000d;
   color: #fff;
 }
 
 .card.is-by-mtb {
-  background-color: #005AAB;
+  background-color: #005aab;
   color: #fff;
 }
 
 .card.is-by-paritetbank {
-  background-color: #0360A7;
+  background-color: #0360a7;
   color: #fff;
 }
 
 .card.is-by-priorbank {
-  background-color: #FFFF00;
+  background-color: #ffff00;
   color: #000;
 }
 
-.card.is-ru-siab {
-  background-color: #0F255C;
-  color: #fff;
-}
-
 .card.is-by-trustbank {
-  background-color: #A81429;
+  background-color: #a81429;
   color: #fff;
 }
 
 .card.is-by-vtb {
-  background-color: #002E77;
+  background-color: #002e77;
   color: #fff;
 }
 
-.card.is-be-amexbelgiumcorporate {
-  background-color: #67B198;
+.card.is-kz-kazkom {
+  background-color: #008fb4;
   color: #fff;
 }
 
-.card.is-be-ingbelgium {
-  background-color: #ff6600;
+.card.is-ru-alfabank {
+  background-color: #f22f17;
+  color: #fff;
+}
+
+.card.is-ru-citibank {
+  background-color: #0088cf;
+  color: #fff;
+}
+
+.card.is-ru-gazprombank {
+  background-color: #00448b;
+  color: #fff;
+}
+
+.card.is-ru-mdm {
+  background-color: #820729;
+  color: #fff;
+}
+
+.card.is-ru-raiffeisen {
+  background-color: #fff300;
+  color: #000;
+}
+
+.card.is-ru-rocketbank {
+  background-color: #fb8000;
+  color: #fff;
+}
+
+.card.is-ru-sberbank {
+  background-color: #309c0b;
+  color: #fff;
+}
+
+.card.is-ru-siab {
+  background-color: #0f255c;
+  color: #fff;
+}
+
+.card.is-ru-tinkoff {
+  background-color: #ffdd2d;
+  color: #000;
+}
+
+.card.is-ru-vtb24 {
+  background-color: #00498f;
+  color: #fff;
+}
+
+.card.is-ru-yandex {
+  background-color: #000000;
   color: #fff;
 }
