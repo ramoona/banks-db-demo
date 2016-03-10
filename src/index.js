@@ -1,21 +1,23 @@
-const banksDB = require('banks-db');
-const masker = require('vanilla-masker');
+'use strict';
+
+var banksDB = require('banks-db');
+var masker = require('vanilla-masker');
 
 window.onload = function () {
-  const cardNumber = document.getElementById('number');
+  var cardNumber = document.getElementById('number');
   masker(cardNumber).maskPattern("9999 9999 9999 9999 99");
 
   cardNumber.oninput = function () {
-    const bank = banksDB(cardNumber.value);
-    const bankInfo = document.getElementById('card');
-    const bankName = document.getElementById('bank-name');
-    const cardType = document.getElementById('type');
-    const hint = document.querySelector('.hint');
+    var bank = banksDB(cardNumber.value);
+    var bankInfo = document.getElementById('card');
+    var bankName = document.getElementById('bank-name');
+    var cardType = document.getElementById('type');
+    var hint = document.querySelector('.hint');
 
     if ( bank.code ) {
       hint.classList.remove('visible');
       bankInfo.classList.add('is-' + bank.code);
-      bankName.innerText = bank.country === 'ru' ? bank.localTitle : bank.engTitle;
+      bankName.innerHTML = bank.country === 'ru' ? bank.localTitle : bank.engTitle;
       bankName.classList.add('visible');
     } else {
       bankName.classList.remove('visible');

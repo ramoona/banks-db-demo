@@ -15,8 +15,8 @@
     "db"
   ],
   "dependencies": {
-    "banks-db": "^0.7.0",
-    "postcss-banks-db": "^0.3.0"
+    "banks-db": "^0.8.0",
+    "postcss-banks-db": "^0.4.0"
   },
   "devDependencies": {
     "autoprefixer": "^6.3.1",
@@ -33,6 +33,7 @@
   },
   "license": "CC-BY-4.0",
   "scripts": {
-    "lint": "eslint ./src/index.js"
+    "lint": "eslint ./src/index.js",
+    "deploy": "git checkout gh-pages && git merge master && git push"
   }
 }

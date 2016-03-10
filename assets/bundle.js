@@ -612,40 +612,38 @@ module.exports={
 }
 
 },{}],38:[function(require,module,exports){
-'use strict';
+var type = require('./type');
+var data = require('./banks/index');
+var banks = [];
 
-const type = require('./type');
-const data = require('./banks/index');
-let banks = [];
-
-data.forEach(item => {
+data.forEach(function (item) {
   banks = banks.concat(item);
 });
 
-banks.forEach(bank => {
+banks.forEach(function (bank) {
   bank.code = bank.country + '-' + bank.name;
 });
 
-const prefixes = {};
+var prefixes = {};
 
-for (let i = 0; i < banks.length; i++) {
-  for (let j = 0; j < banks[i].prefixes.length; j++) {
+for (var i = 0; i < banks.length; i++) {
+  for (var j = 0; j < banks[i].prefixes.length; j++) {
     prefixes[banks[i].prefixes[j]] = banks[i];
   }
 }
 
 module.exports = function findBank(cardNumber) {
   cardNumber = cardNumber || '';
-  const card = cardNumber.toString().replace(/[^\d]/g, '');
-  const first5 = card.substr(0, 5);
-  const first6 = card.substr(0, 6);
-  const bank = prefixes[first6] || prefixes[first5];
-  const result = {
+  var card = cardNumber.toString().replace(/[^\d]/g, '');
+  var first5 = card.substr(0, 5);
+  var first6 = card.substr(0, 6);
+  var bank = prefixes[first6] || prefixes[first5];
+  var result = {
     type: type(card)
   };
 
   if (bank) {
-    for (const el in bank) {
+    for (var el in bank) {
       result[el] = bank[el];
     }
   }
@@ -900,24 +898,26 @@ module.exports = function detectCardType(cardNumber) {
 }));
 
 },{}],41:[function(require,module,exports){
-const banksDB = require('banks-db');
-const masker = require('vanilla-masker');
+'use strict';
+
+var banksDB = require('banks-db');
+var masker = require('vanilla-masker');
 
 window.onload = function () {
-  const cardNumber = document.getElementById('number');
+  var cardNumber = document.getElementById('number');
   masker(cardNumber).maskPattern("9999 9999 9999 9999 99");
 
   cardNumber.oninput = function () {
-    const bank = banksDB(cardNumber.value);
-    const bankInfo = document.getElementById('card');
-    const bankName = document.getElementById('bank-name');
-    const cardType = document.getElementById('type');
-    const hint = document.querySelector('.hint');
+    var bank = banksDB(cardNumber.value);
+    var bankInfo = document.getElementById('card');
+    var bankName = document.getElementById('bank-name');
+    var cardType = document.getElementById('type');
+    var hint = document.querySelector('.hint');
 
     if ( bank.code ) {
       hint.classList.remove('visible');
       bankInfo.classList.add('is-' + bank.code);
-      bankName.innerText = bank.country === 'ru' ? bank.localTitle : bank.engTitle;
+      bankName.innerHTML = bank.country === 'ru' ? bank.localTitle : bank.engTitle;
       bankName.classList.add('visible');
     } else {
       bankName.classList.remove('visible');
