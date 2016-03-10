@@ -34,6 +34,6 @@
   "license": "CC-BY-4.0",
   "scripts": {
     "lint": "eslint ./src/index.js",
-    "deploy": "git checkout gh-pages && git merge master && git push git checkout master"
+    "deploy": "git checkout gh-pages && git merge master && git push && git checkout master"
   }
 }
