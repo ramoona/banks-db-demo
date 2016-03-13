@@ -185,7 +185,7 @@ html {
   align-items: center;
   justify-content: flex-start;
   min-height: 100vh;
-  min-width: 430px;
+  padding: 0 1rem;
 }
 
 .heading {
