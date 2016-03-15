@@ -29,7 +29,8 @@
     "postcss-normalize": "^0.1.2",
     "postcss-contrast": "^0.0.4",
     "vinyl-source-stream": "^1.1.0",
-    "vanilla-masker": "^1.0.9"
+    "vanilla-masker": "^1.0.9",
+    "gulp-uglify": "^1.5.3"
   },
   "license": "CC-BY-4.0",
   "scripts": {
