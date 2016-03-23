@@ -294,6 +294,16 @@ html {
   opacity: 1;
 }
 
+.card.is-ar-galicia {
+  background-color: #ff6319;
+  color: #fff;
+}
+
+.card.is-ar-macro {
+  background-color: #0c75a5;
+  color: #fff;
+}
+
 .card.is-be-amexbelgiumcorporate {
   background-color: #67b198;
   color: #fff;
@@ -394,8 +404,83 @@ html {
   color: #fff;
 }
 
+.card.is-ca-scotiabank {
+  background-color: #d81e05;
+  color: #fff;
+}
+
+.card.is-ca-tangerine {
+  background-color: #fa823c;
+  color: #fff;
+}
+
+.card.is-ca-tdcanadatrust {
+  background-color: #20b14a;
+  color: #fff;
+}
+
+.card.is-cz-airbank {
+  background-color: #99cc33;
+  color: #fff;
+}
+
+.card.is-dk-nykredit {
+  background-color: #10137c;
+  color: #fff;
+}
+
+.card.is-fi-nordeafinland {
+  background-color: #055b90;
+  color: #fff;
+}
+
+.card.is-fr-boursorama {
+  background-color: #d20073;
+  color: #fff;
+}
+
+.card.is-fr-caisseepargne {
+  background-color: #e2001a;
+  color: #fff;
+}
+
+.card.is-fr-creditmutuel {
+  background-color: #11519b;
+  color: #fff;
+}
+
+.card.is-fr-ingdirect {
+  background-color: #ff6600;
+  color: #fff;
+}
+
+.card.is-fr-lcl {
+  background-color: #263f92;
+  color: #fff;
+}
+
+.card.is-gb-barclays {
+  background-color: #00adef;
+  color: #fff;
+}
+
+.card.is-gb-natwest {
+  background-color: #42145f;
+  color: #fff;
+}
+
 .card.is-kz-kazkom {
   background-color: #008fb4;
+  color: #fff;
+}
+
+.card.is-pt-bpi {
+  background-color: #ff8d00;
+  color: #fff;
+}
+
+.card.is-pt-millenniumbcp {
+  background-color: #e7046b;
   color: #fff;
 }
 
@@ -416,6 +501,11 @@ html {
 
 .card.is-ru-mdm {
   background-color: #820729;
+  color: #fff;
+}
+
+.card.is-ru-qiwi {
+  background-color: #ff9f00;
   color: #fff;
 }
 
@@ -451,5 +541,55 @@ html {
 
 .card.is-ru-yandex {
   background-color: #000000;
+  color: #fff;
+}
+
+.card.is-us-americanexpress {
+  background-color: #004fc5;
+  color: #fff;
+}
+
+.card.is-us-bankofamerica {
+  background-color: #d4001a;
+  color: #fff;
+}
+
+.card.is-us-barclays {
+  background-color: #28ace2;
+  color: #fff;
+}
+
+.card.is-us-capitalonebank {
+  background-color: #004779;
+  color: #fff;
+}
+
+.card.is-us-chase {
+  background-color: #0f5ba7;
+  color: #fff;
+}
+
+.card.is-us-citibank {
+  background-color: #0088cf;
+  color: #fff;
+}
+
+.card.is-us-googlewallet {
+  background-color: #4285f4;
+  color: #fff;
+}
+
+.card.is-us-hsbc {
+  background-color: #dd1f26;
+  color: #fff;
+}
+
+.card.is-us-tdbank {
+  background-color: #35b233;
+  color: #fff;
+}
+
+.card.is-us-wellsfargo {
+  background-color: #a00000;
   color: #fff;
 }
