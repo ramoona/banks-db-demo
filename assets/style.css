@@ -304,6 +304,11 @@ html {
   color: #fff;
 }
 
+.card.is-au-suncorp {
+  background-color: #006f66;
+  color: #fff;
+}
+
 .card.is-be-amexbelgiumcorporate {
   background-color: #67b198;
   color: #fff;
@@ -416,6 +421,76 @@ html {
 
 .card.is-ca-tdcanadatrust {
   background-color: #20b14a;
+  color: #fff;
+}
+
+.card.is-cn-abc {
+  background-color: #319c8b;
+  color: #fff;
+}
+
+.card.is-cn-boc {
+  background-color: #a71e32;
+  color: #fff;
+}
+
+.card.is-cn-boco {
+  background-color: #023978;
+  color: #fff;
+}
+
+.card.is-cn-ccb {
+  background-color: #0c69b0;
+  color: #fff;
+}
+
+.card.is-cn-ceb {
+  background-color: #691585;
+  color: #fff;
+}
+
+.card.is-cn-cgb {
+  background-color: #e60021;
+  color: #fff;
+}
+
+.card.is-cn-cib {
+  background-color: #004097;
+  color: #fff;
+}
+
+.card.is-cn-citic {
+  background-color: #c8151c;
+  color: #fff;
+}
+
+.card.is-cn-cmb {
+  background-color: #b0110c;
+  color: #fff;
+}
+
+.card.is-cn-cmib {
+  background-color: #0053b6;
+  color: #fff;
+}
+
+.card.is-cn-hxb {
+  background-color: #d80c18;
+  color: #fff;
+}
+
+.card.is-cn-icbc {
+  background-color: #c90000;
+  color: #fff;
+}
+
+.card.is-cn-pab {
+  background-color: #e95303;
+  color: #fff;
+}
+
+.card.is-cn-spdb {
+  background-color: #072154;
   color: #fff;
 }
 
@@ -534,6 +609,16 @@ html {
   color: #000;
 }
 
+.card.is-ru-unicreditbank {
+  background-color: #e3001a;
+  color: #fff;
+}
+
+.card.is-ru-vozrozhdenie {
+  background-color: #224f84;
+  color: #fff;
+}
+
 .card.is-ru-vtb24 {
   background-color: #00498f;
   color: #fff;
@@ -541,6 +626,91 @@ html {
 
 .card.is-ru-yandex {
   background-color: #000000;
+  color: #fff;
+}
+
+.card.is-tr-akbank {
+  background-color: #4285f4;
+  color: #fff;
+}
+
+.card.is-tr-albaraka {
+  background-color: #4285f4;
+  color: #fff;
+}
+
+.card.is-tr-bankasya {
+  background-color: #4285f4;
+  color: #fff;
+}
+
+.card.is-tr-denizbank {
+  background-color: #4285f4;
+  color: #fff;
+}
+
+.card.is-tr-finansbank {
+  background-color: #4285f4;
+  color: #fff;
+}
+
+.card.is-tr-garanti {
+  background-color: #4285f4;
+  color: #fff;
+}
+
+.card.is-tr-halkbank {
+  background-color: #4285f4;
+  color: #fff;
+}
+
+.card.is-tr-hsbc {
+  background-color: #4285f4;
+  color: #fff;
+}
+
+.card.is-tr-ingbank {
+  background-color: #4285f4;
+  color: #fff;
+}
+
+.card.is-tr-isbank {
+  background-color: #4285f4;
+  color: #fff;
+}
+
+.card.is-tr-kuveytturk {
+  background-color: #4285f4;
+  color: #fff;
+}
+
+.card.is-tr-sekerbank {
+  background-color: #4285f4;
+  color: #fff;
+}
+
+.card.is-tr-teb {
+  background-color: #4285f4;
+  color: #fff;
+}
+
+.card.is-tr-turkiyefinans {
+  background-color: #4285f4;
+  color: #fff;
+}
+
+.card.is-tr-vakifbank {
+  background-color: #4285f4;
+  color: #fff;
+}
+
+.card.is-tr-yapikredi {
+  background-color: #4285f4;
+  color: #fff;
+}
+
+.card.is-tr-ziraatbankasi {
+  background-color: #4285f4;
   color: #fff;
 }
 
