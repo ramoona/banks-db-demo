@@ -544,6 +544,11 @@ html {
   color: #fff;
 }
 
+.card.is-gb-revolut {
+  background-color: #1574e2;
+  color: #fff;
+}
+
 .card.is-kz-kazkom {
   background-color: #008fb4;
   color: #fff;
@@ -714,6 +719,51 @@ html {
   color: #fff;
 }
 
+.card.is-tw-anz {
+  background-color: #003f67;
+  color: #fff;
+}
+
+.card.is-tw-cathaybk {
+  background-color: #11a847;
+  color: #fff;
+}
+
+.card.is-tw-citibank {
+  background-color: #0088cf;
+  color: #fff;
+}
+
+.card.is-tw-ctbcbank {
+  background-color: #007d7d;
+  color: #fff;
+}
+
+.card.is-tw-esunbank {
+  background-color: #009d99;
+  color: #fff;
+}
+
+.card.is-tw-fubon {
+  background-color: #007c97;
+  color: #fff;
+}
+
+.card.is-tw-hncb {
+  background-color: #ce1624;
+  color: #fff;
+}
+
+.card.is-tw-scsb {
+  background-color: #c42607;
+  color: #fff;
+}
+
+.card.is-tw-tcbbank {
+  background-color: #ce1624;
+  color: #fff;
+}
+
 .card.is-us-americanexpress {
   background-color: #004fc5;
   color: #fff;
@@ -751,6 +801,11 @@ html {
 
 .card.is-us-hsbc {
   background-color: #dd1f26;
+  color: #fff;
+}
+
+.card.is-us-payoneer {
+  background-color: #ff4800;
   color: #fff;
 }
 

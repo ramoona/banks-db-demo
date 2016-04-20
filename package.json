@@ -15,7 +15,7 @@
     "db"
   ],
   "dependencies": {
-    "banks-db": "^0.10.0",
+    "banks-db": "^0.10.3",
     "postcss-banks-db": "^0.6.0"
   },
   "devDependencies": {
