@@ -59,8 +59,8 @@ html {
 
 .card {
   border-radius: 15px;
-  height: 240px;
-  width: 388px;
+  height: 252px;
+  width: 400px;
   background: #E2E2E2;
   display: flex;
   flex-direction: column;
