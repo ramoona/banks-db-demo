@@ -550,6 +550,11 @@ html {
   color: #fff;
 }
 
+.card.is-au-bwe {
+  background-color: #f79534;
+  color: #fff;
+}
+
 .card.is-au-cba {
   background-color: #f3c40e;
   color: #000;
@@ -760,6 +765,11 @@ html {
   color: #fff;
 }
 
+.card.is-de-postbank {
+  background-color: #ffcc00;
+  color: #000;
+}
+
 .card.is-dk-nykredit {
   background-color: #10137c;
   color: #fff;
@@ -810,13 +820,163 @@ html {
   color: #fff;
 }
 
+.card.is-ir-ansar {
+  background-color: #b80710;
+  color: #fff;
+}
+
+.card.is-ir-central {
+  background-color: #22304d;
+  color: #fff;
+}
+
+.card.is-ir-day {
+  background-color: #008b9a;
+  color: #fff;
+}
+
+.card.is-ir-eghtesadnovin {
+  background-color: #b42728;
+  color: #fff;
+}
+
+.card.is-ir-exportdevelopment {
+  background-color: #006000;
+  color: #fff;
+}
+
+.card.is-ir-ghavamin {
+  background-color: #00a652;
+  color: #fff;
+}
+
+.card.is-ir-hekmatiranian {
+  background-color: #1d538d;
+  color: #fff;
+}
+
+.card.is-ir-industryandmine {
+  background-color: #e7c07d;
+  color: #000;
+}
+
+.card.is-ir-iranzamin {
+  background-color: #4c2a94;
+  color: #fff;
+}
+
+.card.is-ir-karafarin {
+  background-color: #1f764c;
+  color: #fff;
+}
+
+.card.is-ir-keshavarzi {
+  background-color: #005902;
+  color: #fff;
+}
+
+.card.is-ir-maskan {
+  background-color: #e84b0a;
+  color: #fff;
+}
+
+.card.is-ir-mellat {
+  background-color: #d81736;
+  color: #fff;
+}
+
+.card.is-ir-melli {
+  background-color: #dc3c00;
+  color: #fff;
+}
+
+.card.is-ir-parsian {
+  background-color: #ffc41e;
+  color: #000;
+}
+
+.card.is-ir-pasargad {
+  background-color: #ffc41e;
+  color: #000;
+}
+
+.card.is-ir-post {
+  background-color: #006600;
+  color: #fff;
+}
+
+.card.is-ir-qarzolqasanehmehriran {
+  background-color: #009738;
+  color: #fff;
+}
+
+.card.is-ir-refah {
+  background-color: #004b84;
+  color: #fff;
+}
+
+.card.is-ir-saderat {
+  background-color: #005da2;
+  color: #fff;
+}
+
+.card.is-ir-saman {
+  background-color: #009ddc;
+  color: #fff;
+}
+
+.card.is-ir-sarmayeh {
+  background-color: #000064;
+  color: #fff;
+}
+
+.card.is-ir-sepah {
+  background-color: #e67a00;
+  color: #fff;
+}
+
+.card.is-ir-shahr {
+  background-color: #ed1b24;
+  color: #fff;
+}
+
+.card.is-ir-sina {
+  background-color: #07519a;
+  color: #fff;
+}
+
+.card.is-ir-tejarat {
+  background-color: #2f4a98;
+  color: #fff;
+}
+
+.card.is-ir-toseetaavon {
+  background-color: #50b5d1;
+  color: #fff;
+}
+
+.card.is-ir-tourism {
+  background-color: #b11116;
+  color: #fff;
+}
+
 .card.is-kg-demirbank {
   background-color: #c21f1a;
   color: #fff;
 }
 
+.card.is-kz-bcc {
+  background-color: #008047;
+  color: #fff;
+}
+
 .card.is-kz-kazkom {
   background-color: #008fb4;
+  color: #fff;
+}
+
+.card.is-kz-sberbank {
+  background-color: #309c0b;
   color: #fff;
 }
 
@@ -850,6 +1010,11 @@ html {
   color: #fff;
 }
 
+.card.is-ru-avangard {
+  background-color: #187543;
+  color: #fff;
+}
+
 .card.is-ru-citibank {
   background-color: #0088cf;
   color: #fff;
@@ -865,6 +1030,11 @@ html {
   color: #fff;
 }
 
+.card.is-ru-promsvyazbank {
+  background-color: #274193;
+  color: #fff;
+}
+
 .card.is-ru-qiwi {
   background-color: #ff9f00;
   color: #fff;
@@ -875,8 +1045,23 @@ html {
   color: #000;
 }
 
+.card.is-ru-renaissance {
+  background-color: #343434;
+  color: #fff;
+}
+
 .card.is-ru-rocketbank {
   background-color: #fb8000;
+  color: #fff;
+}
+
+.card.is-ru-rosbank {
+  background-color: #e60028;
+  color: #fff;
+}
+
+.card.is-ru-rosevrobank {
+  background-color: #6c2870;
   color: #fff;
 }
 
@@ -890,9 +1075,19 @@ html {
   color: #fff;
 }
 
+.card.is-ru-sovcombank {
+  background-color: #134c7c;
+  color: #fff;
+}
+
 .card.is-ru-tinkoff {
   background-color: #ffdd2d;
   color: #000;
+}
+
+.card.is-ru-trust {
+  background-color: #f8ab21;
+  color: #fff;
 }
 
 .card.is-ru-uniastrumbank {
@@ -905,8 +1100,18 @@ html {
   color: #fff;
 }
 
+.card.is-ru-uralsibbank {
+  background-color: #53b548;
+  color: #fff;
+}
+
 .card.is-ru-vozrozhdenie {
   background-color: #224f84;
+  color: #fff;
+}
+
+.card.is-ru-vpb {
+  background-color: #0071b9;
   color: #fff;
 }
 
@@ -1050,6 +1255,26 @@ html {
   color: #fff;
 }
 
+.card.is-ua-privatbank {
+  background-color: #498d2f;
+  color: #fff;
+}
+
+.card.is-ua-ukrsibbank {
+  background-color: #04703d;
+  color: #fff;
+}
+
+.card.is-ua-unicreditbank {
+  background-color: #e3001a;
+  color: #fff;
+}
+
+.card.is-uk-payoneer {
+  background-color: #ff4800;
+  color: #fff;
+}
+
 .card.is-us-americanexpress {
   background-color: #004fc5;
   color: #fff;
@@ -1095,13 +1320,28 @@ html {
   color: #fff;
 }
 
+.card.is-us-jpmorganchase {
+  background-color: #ececeb;
+  color: #000;
+}
+
 .card.is-us-metabank {
   background-color: #004990;
   color: #fff;
 }
 
+.card.is-us-navyfederal {
+  background-color: #0f4471;
+  color: #fff;
+}
+
 .card.is-us-payoneer {
   background-color: #ff4800;
+  color: #fff;
+}
+
+.card.is-us-suntrust {
+  background-color: #ef7622;
   color: #fff;
 }
 
