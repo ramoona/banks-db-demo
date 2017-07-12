@@ -13,11 +13,12 @@ window.onload = function () {
     var bankName = document.getElementById('bank-name');
     var cardType = document.getElementById('type');
     var hint = document.querySelector('.hint');
+    var userCountry = navigator.language.replace(/[a-z]*-/, '').toLowerCase();
 
     if ( bank.code ) {
       hint.classList.remove('visible');
       bankInfo.classList.add('is-' + bank.code);
-      bankName.innerHTML = bank.country === 'ru' ? bank.localTitle : bank.engTitle;
+      bankName.innerHTML = bank.country === userCountry ? bank.localTitle : bank.engTitle;
       bankName.classList.add('visible');
     } else {
       bankName.classList.remove('visible');
