@@ -1,3 +1,30 @@
+html {
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+a:active,
+a:hover {
+  outline-width: 0;
+}
+
+input {
+  overflow: visible;
+  font: inherit;
+  margin: 0;
+  outline: none;
+}
+
 @font-face {
   font-family: Halter;
   src: url(../assets/Halter.woff);

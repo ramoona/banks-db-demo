@@ -5,5 +5,9 @@
     "no-var": 0,
     "comma-dangle": [2, "never"],
     "guard-for-in": 0
+  },
+  "env": {
+    "browser": true,
+    "node": true
   }
 }
