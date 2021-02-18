@@ -9,7 +9,6 @@ import typescript from '@rollup/plugin-typescript';
 import autoprefixer from 'autoprefixer';
 import normalize from 'postcss-normalize';
 import nested from 'postcss-nested';
-import contrast from 'postcss-contrast';
 
 export default {
   input: 'src/index.ts',
@@ -20,7 +19,7 @@ export default {
     pluginJSON(),
     typescript(),
     postcss({
-      plugins: [autoprefixer, normalize, nested, contrast],
+      plugins: [autoprefixer, normalize, nested],
       extract: path.resolve('dist/styles.css')
     })
   ]
