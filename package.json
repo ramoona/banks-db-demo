@@ -1,6 +1,6 @@
 {
   "name": "banks-db-demo",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Demo page for Banks DB",
   "author": "Linda Rian <lindarian12@gmail.com>",
   "repository": "ramoona/banks-db-demo",
@@ -14,26 +14,29 @@
     "database",
     "db"
   ],
+  "scripts": {
+    "lint": "eslint src/index.ts",
+    "build": "yarn lint && rollup -c",
+    "watch": "rollup -c -w"
+  },
   "dependencies": {
-    "banks-db": "^0.12.0",
-    "postcss-banks-db": "^0.10.0",
-    "vanilla-masker": "^1.2.0"
+    "banks-db": "^0.16.0"
   },
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^17.1.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^11.1.1",
+    "@rollup/plugin-typescript": "^8.2.0",
     "autoprefixer": "^7.1.2",
-    "browserify": "^14.4.0",
     "eslint": "^4.2.0",
     "eslint-config-airbnb": "^15.0.2",
-    "gulp": "^3.9.1",
-    "gulp-postcss": "^7.0.0",
-    "gulp-uglify": "^3.0.0",
-    "postcss-contrast": "^0.0.4",
+    "eslint-plugin-import": "^2.22.1",
+    "postcss": "^8.2.6",
     "postcss-nested": "^2.0.4",
     "postcss-normalize": "^4.0.0",
-    "vinyl-source-stream": "^1.1.0"
+    "rollup-plugin-postcss": "^4.0.0",
+    "typescript": "^4.1.5",
+    "tslib": "^2.1.0"
   },
-  "license": "CC-BY-4.0",
-  "scripts": {
-    "lint": "eslint ./src/index.js"
-  }
+  "license": "CC-BY-4.0"
 }
