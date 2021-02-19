@@ -3,9 +3,9 @@
 <head>
     <meta charset="utf-8">
     <title>Banks DB</title>
-    <meta name="keywords" content="bankcard, bin, bank, card, color, database, db">
+    <meta name="keywords" content="bankcard, bin, iin, bank, card, color, database, db">
     <meta name="description"
-          content="Banks DB is a tool for getting bank's name and brand color by issuer identification number">
+          content="Banks DB is a tool for getting bank name and brand color by IIN">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta property="og:url" content="https://ramoona.github.io/banks-db-demo/" />
     <meta property="og:image" content="https://ramoona.github.io/banks-db-demo/demo-example.jpg" />
@@ -19,7 +19,7 @@
 <div class="container">
   <div class="top">
     <h1 class="heading">
-      <a class="repo-link" href="https://github.com/ramoona/banks-db">
+      <a class="repo-link" href="https://github.com/ramoona/banks-db" target="_blank" rel="noreferrer">
         <svg xmlns="http://www.w3.org/2000/svg" width="202" height="36" viewBox="0 0 202 36" class="logo">
             <path fill="#8FD1FF"
                   d="M188.672 1.875l.456.003c3.916.057 6.904.849 8.966 2.376 2.14 1.586 3.21 3.91 3.21 6.973 0 1.671-.429 3.144-1.288 4.418-.86 1.273-2.055 2.207-3.586 2.8 1.75.438 3.129 1.32 4.136 2.649 1.008 1.328 1.512 2.953 1.512 4.875 0 3.281-1.047 5.765-3.14 7.453-2.094 1.687-5.079 2.547-8.954 2.578H176.72V1.875h11.953zm1.523 19.266h-6.445v9.21h6.023c1.657 0 2.95-.394 3.88-1.183.929-.79 1.394-1.879 1.394-3.27 0-3.125-1.617-4.71-4.852-4.757zm-1.523-13.57h-4.922v8.6h5.203c3.547-.062 5.32-1.476 5.32-4.241 0-1.547-.449-2.66-1.347-3.34-.899-.68-2.317-1.02-4.254-1.02zM156.023 1.875l.498.006c2.8.071 5.318.745 7.553 2.021 2.367 1.352 4.215 3.274 5.543 5.766 1.328 2.492 1.992 5.324 1.992 8.496v1.57l-.006.526c-.068 2.959-.718 5.604-1.95 7.935-1.305 2.47-3.145 4.383-5.52 5.742-2.375 1.36-5.055 2.047-8.04 2.063h-10.57V1.875h10.5zm0 5.695h-3.468v22.782h3.398c2.75 0 4.852-.899 6.305-2.696 1.453-1.797 2.195-4.367 2.226-7.71V18.14l-.003-.43c-.058-3.257-.775-5.743-2.153-7.457-1.437-1.79-3.539-2.684-6.305-2.684z"/>
@@ -35,8 +35,9 @@
         </svg>
       </a>
     </h1>
-    <p class="description">is a tool for getting bank's name and brand color by <a
-      href="https://en.wikipedia.org/wiki/Payment_card_number#Issuer_identification_number_(IIN)" class="link">issuer
+    <p class="description">is a tool for getting bank name and brand color by <a
+      href="https://en.wikipedia.org/wiki/Payment_card_number#Issuer_identification_number_(IIN)" class="link"
+      target="_blank" rel="noreferrer">issuer
       identification number</a></p>
   </div>
   <p class="suggest">
@@ -45,19 +46,19 @@
     for
     <span class="suggested-bank" id="suggested-bank"></span>
   </p>
-  <div class="card" id="card" data-type="" data-bank="">
+    <div class="card" id="card" data-type="" data-bank="">
       <span id="bank-name" class="bank-name"></span>
       <input class="number" id="number" type="text" maxlength="22" placeholder="0000 0000 0000 0000" autofocus>
       <div class="type"></div>
-  </div>
+    </div>
   <p class="notice">Notice that only first 6 digits are required for bank detection.</p>
   <div class="hint">
     It looks like your bank or it's prefix isn't in Banks DB yet.
     <br>
     Feel free to
-    <a class="link" href="https://github.com/ramoona/banks-db/blob/master/CONTRIBUTING.md">contribute</a>
+    <a class="link" href="https://github.com/ramoona/banks-db/blob/master/CONTRIBUTING.md" target="_blank" rel="noreferrer">contribute</a>
     or create an
-    <a class="link" href="https://github.com/ramoona/banks-db/issues">issue</a> if you'd like to help the project.
+    <a class="link" href="https://github.com/ramoona/banks-db/issues" target="_blank" rel="noreferrer">issue</a> if you'd like to help the project.
   </div>
 </div>
 <script src="dist/index.min.js"></script>

@@ -137,6 +137,11 @@ html {
   font-weight: 300;
 }
 
+.card-wrapper {
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
 .card {
   border-radius: 1rem;
   height: 15.75rem;
@@ -151,6 +156,8 @@ html {
   overflow: hidden;
   justify-content: stretch;
   position: relative;
+  /* fix for weird safari bug — it ignores parent's border-radius while child is transforming */
+  transform: translate(1px);
 }
 
 .card[data-focused] {
@@ -223,7 +230,7 @@ html {
    box-sizing: border-box;
    font-size: 1.1rem;
    padding: .5rem 1rem;
-   font-family: 'Halter', sans-serif;
+   font-family: "Halter", sans-serif;
    outline: none;
    background: transparent;
    border: none;

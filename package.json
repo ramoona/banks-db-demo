@@ -7,6 +7,7 @@
   "keywords": [
     "bankcard",
     "bin",
+    "iin",
     "bank",
     "card",
     "demo",
@@ -15,7 +16,7 @@
     "db"
   ],
   "scripts": {
-    "lint": "eslint src/index.ts",
+    "lint": "eslint src/*.ts",
     "build": "yarn lint && rollup -c",
     "watch": "rollup -c -w"
   },
