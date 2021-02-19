@@ -227,11 +227,12 @@ html {
    outline: none;
    background: transparent;
    border: none;
-   color: inherit;
-    position: relative;
-    margin-bottom: 2rem;
-    z-index: 1;
-    transition: 300ms border-color;
+  color: inherit;
+  position: relative;
+  margin-bottom: 2rem;
+  z-index: 1;
+  transition: 300ms border-color;
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.4);
  }
 
 .number::-moz-placeholder {
