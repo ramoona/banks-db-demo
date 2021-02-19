@@ -102,7 +102,7 @@ html {
     outline: 2px solid #11b0c1;
   }
 
-.logo path {
+.logo path, .logo polygon {
     transition: 0.3s fill;
   }
 
